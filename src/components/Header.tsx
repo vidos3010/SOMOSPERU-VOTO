@@ -53,10 +53,13 @@ export const Header: React.FC<HeaderProps> = ({
   return (
     <header className="bg-slate-900 text-white border-b border-slate-800 sticky top-0 z-40 shadow-lg">
       {/* Top Notification Bar */}
-      <div className="bg-gradient-to-r from-red-700 via-rose-700 to-red-700 px-3 py-1 text-[11px] sm:text-xs text-center font-bold flex items-center justify-center gap-1.5 text-white shadow-inner">
-        <span className="truncate">Simulador Oficial de Votación — Partido Democrático Somos Perú (Región Pasco)</span>
+      <div className="bg-gradient-to-r from-red-700 via-rose-700 to-red-700 px-3 py-1.5 text-[11px] sm:text-xs text-center font-bold flex flex-wrap items-center justify-center gap-2 text-white shadow-inner">
+        <span className="bg-amber-400 text-slate-950 font-black px-2 py-0.5 rounded uppercase tracking-wider text-[10px] sm:text-[11px] shadow-sm animate-pulse">
+          🗳️ ¡ESTE 4 DE OCTUBRE MARCA ASÍ!
+        </span>
+        <span className="truncate">Simulador Oficial — Partido Democrático Somos Perú (Región Pasco)</span>
         <span className="hidden md:inline bg-red-900/80 px-2 py-0.5 rounded-full text-[10px] font-black shrink-0 border border-red-400/30">
-          {totalSimulatedVotes.toLocaleString()} votos
+          {totalSimulatedVotes.toLocaleString()} votos simulados
         </span>
       </div>
 

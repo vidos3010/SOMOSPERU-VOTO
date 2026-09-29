@@ -374,9 +374,9 @@ export const OfficialCedula: React.FC<OfficialCedulaProps> = ({
         <div className="relative border-b-2 sm:border-b-4 border-slate-900 pb-3 sm:pb-5 mb-4 sm:mb-6 text-center">
           
           {/* Top Campaign Banner with SOMOS PERU Logo and Title */}
-          <div className="flex items-center justify-between bg-gradient-to-r from-red-700 via-rose-600 to-red-700 text-white rounded-2xl p-2.5 sm:p-3 mb-3.5 shadow-md border border-red-800">
+          <div className="flex flex-col sm:flex-row items-center justify-between bg-gradient-to-r from-red-700 via-rose-600 to-red-700 text-white rounded-2xl p-2.5 sm:p-3 mb-3.5 shadow-md border border-red-800 gap-2">
             <div className="flex items-center gap-2 sm:gap-3 pl-1 sm:pl-2">
-              <div className="w-9 h-9 sm:w-11 sm:h-11 bg-white rounded-xl p-1 shrink-0 flex items-center justify-center shadow-inner border border-red-300">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-white rounded-xl p-1 shrink-0 flex items-center justify-center shadow-inner border border-red-300">
                 <img
                   src={`${import.meta.env.BASE_URL}data/logos/14.png`}
                   alt="SOMOS PERU"
@@ -390,15 +390,15 @@ export const OfficialCedula: React.FC<OfficialCedulaProps> = ({
                 <span className="font-black text-sm sm:text-lg tracking-tight leading-none block">
                   PARTIDO DEMOCRÁTICO SOMOS PERÚ
                 </span>
-                <span className="text-[10px] sm:text-xs font-bold text-rose-100 block">
+                <span className="text-[11px] sm:text-xs font-bold text-rose-100 block">
                   Campaña Oficial Región Pasco
                 </span>
               </div>
             </div>
 
-            <div className="hidden sm:flex items-center gap-2 pr-2">
-              <span className="bg-white/20 text-white text-[11px] font-black uppercase px-3 py-1 rounded-lg tracking-wider border border-white/30">
-                PASCO 2026
+            <div className="flex items-center gap-2 pr-2">
+              <span className="bg-amber-400 text-slate-950 text-xs sm:text-sm font-black uppercase px-3.5 py-1.5 rounded-xl tracking-wider border-2 border-amber-300 shadow-md animate-pulse">
+                🗳️ ¡ESTE 4 DE OCTUBRE MARCA ASÍ!
               </span>
             </div>
           </div>
@@ -423,8 +423,8 @@ export const OfficialCedula: React.FC<OfficialCedulaProps> = ({
           </div>
 
           {/* Instructions Box */}
-          <div className="mt-2.5 bg-amber-50 border border-amber-300 rounded-xl p-2 sm:p-2.5 text-xs sm:text-sm text-amber-950 font-semibold leading-tight max-w-3xl mx-auto">
-            <span className="font-black text-amber-900">INSTRUCCIÓN AL ELECTOR:</span> Marque con una cruz (<strong>+</strong>) o un aspa (<strong>✕</strong>) dentro del recuadro del símbolo de su preferencia.
+          <div className="mt-2.5 bg-red-50 border-2 border-red-400 rounded-xl p-2.5 sm:p-3 text-xs sm:text-sm text-red-950 font-bold leading-tight max-w-3xl mx-auto shadow-sm">
+            <span className="font-black text-red-700 uppercase tracking-wide">¡ESTE 4 DE OCTUBRE MARCA ASÍ!</span> Marque con una cruz (<strong>+</strong>) o un aspa (<strong>✕</strong>) en el símbolo de <strong>SOMOS PERÚ</strong>.
           </div>
         </div>
 

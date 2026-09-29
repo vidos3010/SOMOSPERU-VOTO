@@ -96,9 +96,14 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
           </div>
         </div>
 
-        <div className="inline-flex items-center gap-2 bg-red-600/80 backdrop-blur-md text-white border border-red-400/60 px-3.5 py-1.5 rounded-full text-xs font-black uppercase tracking-wider shadow-lg">
-          <Sparkles className="w-3.5 h-3.5 text-white animate-spin" style={{ animationDuration: '4s' }} />
-          <span>SIMULADOR OFICIAL</span>
+        <div className="flex items-center gap-2">
+          <span className="hidden sm:inline-block bg-amber-400 text-slate-950 px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider shadow-md">
+            ¡ESTE 4 DE OCTUBRE MARCA ASÍ!
+          </span>
+          <div className="inline-flex items-center gap-2 bg-red-600/80 backdrop-blur-md text-white border border-red-400/60 px-3.5 py-1.5 rounded-full text-xs font-black uppercase tracking-wider shadow-lg">
+            <Sparkles className="w-3.5 h-3.5 text-white animate-spin" style={{ animationDuration: '4s' }} />
+            <span>SIMULADOR OFICIAL</span>
+          </div>
         </div>
       </div>
 
