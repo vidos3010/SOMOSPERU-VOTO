@@ -1,0 +1,243 @@
+{
+  "ubigeo": "180101",
+  "departamento": "PASCO",
+  "provincia": "PASCO",
+  "distrito": "CHAUPIMARCA",
+  "columnas": 3,
+  "secciones": [
+    {
+      "seccion": "GOBERNADOR",
+      "tipoEleccion": 4,
+      "organizaciones": [
+        {
+          "id": 1257,
+          "nombre": "ALIANZA PARA EL PROGRESO",
+          "logo": "1257.png",
+          "bloque": "nacional",
+          "orden": 1,
+          "vacante": false
+        },
+        {
+          "id": 2857,
+          "nombre": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          "logo": "2857.png",
+          "bloque": "nacional",
+          "orden": 7,
+          "vacante": false
+        },
+        {
+          "id": 4,
+          "nombre": "ACCION POPULAR",
+          "logo": "4.png",
+          "bloque": "nacional",
+          "orden": 8,
+          "vacante": false
+        },
+        {
+          "id": 3040,
+          "nombre": "RENOVACION POPULAR PERU",
+          "logo": "3040.png",
+          "bloque": "nacional",
+          "orden": 13,
+          "vacante": false
+        },
+        {
+          "id": 2895,
+          "nombre": "PARTIDO DEMOCRATA VERDE",
+          "logo": "2895.png",
+          "bloque": "nacional",
+          "orden": 15,
+          "vacante": false
+        },
+        {
+          "id": 3036,
+          "nombre": "ALIANZA REGIONAL POR EL PERU",
+          "logo": "3036.png",
+          "bloque": "nacional",
+          "orden": 16,
+          "vacante": false
+        },
+        {
+          "id": 2925,
+          "nombre": "PARTIDO POLITICO PERU PRIMERO",
+          "logo": "2925.png",
+          "bloque": "nacional",
+          "orden": 26,
+          "vacante": false
+        },
+        {
+          "id": 14,
+          "nombre": "PARTIDO DEMOCRATICO SOMOS PERU",
+          "logo": "14.png",
+          "bloque": "nacional",
+          "orden": 39,
+          "vacante": false
+        },
+        {
+          "id": 2731,
+          "nombre": "PODEMOS PERU",
+          "logo": "2731.png",
+          "bloque": "nacional",
+          "orden": 41,
+          "vacante": false
+        }
+      ]
+    },
+    {
+      "seccion": "CONSEJEROS",
+      "tipoEleccion": 4,
+      "organizaciones": [
+        {
+          "id": 1257,
+          "nombre": "ALIANZA PARA EL PROGRESO",
+          "logo": "1257.png",
+          "bloque": "nacional",
+          "orden": 1,
+          "vacante": false
+        },
+        {
+          "id": 2857,
+          "nombre": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          "logo": "2857.png",
+          "bloque": "nacional",
+          "orden": 7,
+          "vacante": false
+        },
+        {
+          "id": 4,
+          "nombre": "ACCION POPULAR",
+          "logo": "4.png",
+          "bloque": "nacional",
+          "orden": 8,
+          "vacante": false
+        },
+        {
+          "id": 3040,
+          "nombre": "RENOVACION POPULAR PERU",
+          "logo": "3040.png",
+          "bloque": "nacional",
+          "orden": 13,
+          "vacante": false
+        },
+        {
+          "id": 2895,
+          "nombre": "PARTIDO DEMOCRATA VERDE",
+          "logo": "2895.png",
+          "bloque": "nacional",
+          "orden": 15,
+          "vacante": false
+        },
+        {
+          "id": 3036,
+          "nombre": "ALIANZA REGIONAL POR EL PERU",
+          "logo": "3036.png",
+          "bloque": "nacional",
+          "orden": 16,
+          "vacante": false
+        },
+        {
+          "id": 2925,
+          "nombre": "PARTIDO POLITICO PERU PRIMERO",
+          "logo": "2925.png",
+          "bloque": "nacional",
+          "orden": 26,
+          "vacante": false
+        },
+        {
+          "id": 14,
+          "nombre": "PARTIDO DEMOCRATICO SOMOS PERU",
+          "logo": "14.png",
+          "bloque": "nacional",
+          "orden": 39,
+          "vacante": false
+        },
+        {
+          "id": 2731,
+          "nombre": "PODEMOS PERU",
+          "logo": "2731.png",
+          "bloque": "nacional",
+          "orden": 41,
+          "vacante": false
+        }
+      ]
+    },
+    {
+      "seccion": "PROVINCIAL",
+      "tipoEleccion": 5,
+      "organizaciones": [
+        {
+          "id": 1257,
+          "nombre": "ALIANZA PARA EL PROGRESO",
+          "logo": "1257.png",
+          "bloque": "nacional",
+          "orden": 1,
+          "vacante": false
+        },
+        {
+          "id": 2857,
+          "nombre": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          "logo": "2857.png",
+          "bloque": "nacional",
+          "orden": 7,
+          "vacante": false
+        },
+        {
+          "id": 4,
+          "nombre": "ACCION POPULAR",
+          "logo": "4.png",
+          "bloque": "nacional",
+          "orden": 8,
+          "vacante": true
+        },
+        {
+          "id": 3040,
+          "nombre": "RENOVACION POPULAR PERU",
+          "logo": "3040.png",
+          "bloque": "nacional",
+          "orden": 13,
+          "vacante": false
+        },
+        {
+          "id": 2895,
+          "nombre": "PARTIDO DEMOCRATA VERDE",
+          "logo": "2895.png",
+          "bloque": "nacional",
+          "orden": 15,
+          "vacante": false
+        },
+        {
+          "id": 3036,
+          "nombre": "ALIANZA REGIONAL POR EL PERU",
+          "logo": "3036.png",
+          "bloque": "nacional",
+          "orden": 16,
+          "vacante": false
+        },
+        {
+          "id": 2925,
+          "nombre": "PARTIDO POLITICO PERU PRIMERO",
+          "logo": "2925.png",
+          "bloque": "nacional",
+          "orden": 26,
+          "vacante": false
+        },
+        {
+          "id": 14,
+          "nombre": "PARTIDO DEMOCRATICO SOMOS PERU",
+          "logo": "14.png",
+          "bloque": "nacional",
+          "orden": 39,
+          "vacante": false
+        },
+        {
+          "id": 2731,
+          "nombre": "PODEMOS PERU",
+          "logo": "2731.png",
+          "bloque": "nacional",
+          "orden": 41,
+          "vacante": false
+        }
+      ]
+    }
+  ]
+}
