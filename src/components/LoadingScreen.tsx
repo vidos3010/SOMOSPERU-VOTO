@@ -78,7 +78,7 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
         <div className="flex items-center gap-3 bg-slate-950/70 backdrop-blur-md px-4 py-2 rounded-2xl border border-red-500/40 shadow-xl">
           <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white rounded-xl p-1 shadow-md border border-red-500 flex items-center justify-center shrink-0">
             <img
-              src="/data/logos/14.png"
+              src={`${import.meta.env.BASE_URL}data/logos/14.png`}
               alt="SOMOS PERU"
               className="max-h-full max-w-full object-contain"
               onError={(e) => {

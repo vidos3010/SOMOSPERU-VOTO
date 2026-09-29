@@ -60,7 +60,7 @@ export const OfficialCedula: React.FC<OfficialCedulaProps> = ({
     setError(null);
     setHasVoted(false);
 
-    fetch(`/data/cedulas/${district.ubigeo_jne}.json`)
+    fetch(`${import.meta.env.BASE_URL}data/cedulas/${district.ubigeo_jne}.json`)
       .then(res => {
         if (!res.ok) throw new Error(`HTTP Error ${res.status}`);
         return res.json();
@@ -378,7 +378,7 @@ export const OfficialCedula: React.FC<OfficialCedulaProps> = ({
             <div className="flex items-center gap-2 sm:gap-3 pl-1 sm:pl-2">
               <div className="w-9 h-9 sm:w-11 sm:h-11 bg-white rounded-xl p-1 shrink-0 flex items-center justify-center shadow-inner border border-red-300">
                 <img
-                  src="/data/logos/14.png"
+                  src={`${import.meta.env.BASE_URL}data/logos/14.png`}
                   alt="SOMOS PERU"
                   className="max-h-full max-w-full object-contain"
                   onError={(e) => {
@@ -505,7 +505,7 @@ export const OfficialCedula: React.FC<OfficialCedulaProps> = ({
                               }`}
                             >
                               <img
-                                src={`/data/logos/${org.logo}`}
+                                src={`${import.meta.env.BASE_URL}data/logos/${org.logo}`}
                                 alt={org.nombre}
                                 className={`max-h-full max-w-full object-contain pointer-events-none ${
                                   isSomosPeru ? 'scale-105' : 'grayscale-[20%]'

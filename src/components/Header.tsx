@@ -67,7 +67,7 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="flex items-center gap-2.5">
             <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl bg-white flex items-center justify-center shadow-lg shadow-red-900/40 shrink-0 border-2 border-red-500 p-1">
               <img
-                src="/data/logos/14.png"
+                src={`${import.meta.env.BASE_URL}data/logos/14.png`}
                 alt="SOMOS PERU"
                 className="max-h-full max-w-full object-contain"
                 onError={(e) => {
